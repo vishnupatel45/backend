@@ -59,7 +59,7 @@ io.on('connection', (socket) => {
 });
 
 app.get('/vishnu',(req,res)=>{
-    res.send(<h2>Hello vishnu !</h2>)
+    res.send("Hello vishnu")
 })
 
 // Define the port to listen on
