@@ -58,6 +58,10 @@ io.on('connection', (socket) => {
     });
 });
 
+app.get('/vishnu',(req,res)=>{
+    res.send(<h2>Hello vishnu !</h2>)
+})
+
 // Define the port to listen on
 const PORT = 8000;
 
